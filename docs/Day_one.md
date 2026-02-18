@@ -1,38 +1,38 @@
-##PREPARACION DEL ENTORNO
--Instalar python
--Instalar git
--Instalar Vs code
-*descargamos e instalamos el .deb con "sudo apt  install./ nombre del archivo.deb" y reiniciamos el archivo con ctrl+shift+p dentro de vscode
+## PREPARACION DEL ENTORNO
+- Instalar python
+- Instalar git
+- Instalar Vs code
+* descargamos e instalamos el .deb con "sudo apt  install./ nombre del archivo.deb" y reiniciamos el archivo con ctrl+shift+p dentro de vscode
 
-#Creacion de carpetas
--mkdir - crear carpetas
--mkdir ~/ - crear una carpeta desde home
-rmdir + nombre de la carpeta - para eliminar
+# Creacion de carpetas
+- mkdir - crear carpetas
+- mkdir ~/ - crear una carpeta desde home
+- rmdir + nombre de la carpeta - para eliminar
 
-#Iniciamos git
+# Iniciamos git
 git init 
-#Revisamos la version
+# Revisamos la version
 git --version
-#Creamos un entorno virtual
+# Creamos un entorno virtual
 python3 -m venv venv
-#Activar el entorno virtual
+# Activar el entorno virtual
 source venv/bin/activate 
-#Por si quieres desactivar
+# Por si quieres desactivar
 deactivate
-#Creamos un gitignore
+# Creamos un gitignore
 touch.gitignore
-#configuramos git
+# configuramos git
 git config --global user.name "Tu Nombre"
 git config --global user.email "tuemail@example.com"
-#Agregamos los archivos al stagin
--git status  verificamos el estado
--git add .  agregamos
--git status  verificamos nuevamente
+# Agregamos los archivos al stagin
+- git status  verificamos el estado
+- git add .  agregamos
+- git status  verificamos nuevamente
 
-#Primer commit
+# Primer commit
 git commit -m "Initial project structure"
 
-##CREAMOS EL REPOSITORIO EN GITHUB
+## CREAMOS EL REPOSITORIO EN GITHUB
 debemoos crear el repositorio en la web y obtener una URL https
 git remote add origin https://github.com/TUUSUARIO/python-dev-journey.git
 git branch -M main
