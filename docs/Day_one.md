@@ -40,3 +40,4 @@ git push -u origin main
 
 posterior a ingresar te solicitara un usuario y contrasena los cuales con  1. tu usuario en github y 2. un personal Token que debes generar en configuraciones 
 
+hasta aca llegamos hoy 
